@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Challenge</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">ALURA + ORACLE - TURMA 6</h1>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="warning">
+                <p class="warning__text">ATENÇÃO: Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <textarea class="text__area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+        </section>
+        <br><br>
+
+        <section class="botoes">
+            <button class="botaoCriptografar" type="button" onclick="botaoCriptografar()">Criptografar</button>
+            <button class="botaoDescriptografar" type="button" onclick="botaoDescriptografar()">Descriptografar</button>
+        </section>
+        
+            <section>
+                <div>
+                    <textarea class="message" cols="41" rows="4"></textarea>
+                </div>
+            </section>
+            <button class="botaoCopiar" type="button">
+                Copiar
+            </button>
+        </main>
+    <script src="decodificador.js"></script>
+</body>
+<hr>
+<footer>
+    <p>&lt;&lt;&lt; &copy; Eduarda Marques &gt;&gt;&gt; </p>
+</footer>
+</html>

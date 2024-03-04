@@ -1,0 +1,54 @@
+* {
+    background-color: #FFFFEC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+.header__title {
+    background-color: #597E52;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF9933;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.warning__text {
+    margin: 1%;
+    font-size: 20px;
+}
+
+.text__area, .message {
+    margin-left: 6%;
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 25px;
+
+}
+
+.botaoCriptografar, .botaoDescriptografar {
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border-radius: 22px;
+    width: 25%;
+    background-color: #99CCFF;
+    color: white;
+}
+
+.botaoCopiar {
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: 6%;
+    border-radius: 24px;
+    width: 15%;
+    background-color: #99CCFF;
+    color: white;
+}
+
+p {
+    font-size: small;
+}
